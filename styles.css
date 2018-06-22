@@ -1,0 +1,104 @@
+.header{
+	background-image: url(./images/background.jpg);
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.link{
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+
+
+
+.menu{
+	display: flex;	
+	justify-content: space-between;
+	list-style: none;
+    width: 500px;
+}
+.container{
+	display: flex;
+	justify-content: space-between;
+
+}
+.title{
+	color: #ffffff;
+	font-size: 40px;
+	margin-top: 300px;
+	text-transform: uppercase;
+}
+.subtitle{
+color: #ffffff;
+font-size: 15px;
+text-transform: uppercase;
+}
+.benefits{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	color: #ffffff;
+	width: 750px;
+	margin: 0 auto;
+}
+.main{
+	background: #a2ca28;
+}
+.read_more{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+}
+.benefits_title{
+	font-size: 24px;
+
+
+}
+.benefits_text{
+	font-size: 14px;
+}
+
+.benefits_foo{
+display: flex;
+justify-content: space-between;
+width: 800px;
+margin: 0 auto;
+
+}
+
+
+
+
+.title_for{
+color: #fd634e;
+font-size: 14px;
+margin: 0px;
+text-transform: uppercase;
+}
+.title_five{
+	color: #a2ca28;
+	font-size:35px;
+	margin:0px;
+	text-transform: uppercase;
+}
+.text_promo{
+	color: #656e74
+	font-size: 14px;
+	margin:0px; 
+}
+.Read_mo{
+	color: #c0da8a;
+	font-size: 14px;
+	margin: 0px;
+}
+.background_div{
+	background: #ffffff;
+	width: 200px;
+	
+}
+
