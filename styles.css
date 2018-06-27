@@ -1,10 +1,9 @@
 .header{
 	background-image: url(./images/background.jpg);
-	height: 500px;
+	height: 600px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
 .link{
 	color: white;
 	font-size: 13px;
@@ -12,31 +11,46 @@
 	text-decoration: none;
 }
 
-
-
-
+@font-face{
+src: './fonts/AvenirNextCyr-Regular.ttf';
+font-family: AvenirNext;
+}
 
 .menu{
 	display: flex;	
 	justify-content: space-between;
 	list-style: none;
     width: 500px;
+    font-family: AvenirNext, sans-serif;
+font-weight: 400;
 }
 .container{
 	display: flex;
 	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-top: 20px;
 
 }
 .title{
 	color: #ffffff;
 	font-size: 40px;
-	margin-top: 300px;
+	margin-top: 350px;
+	margin-left: 50px;
 	text-transform: uppercase;
+	font-family: AvenirNext, sans-serif;
+font-weight: 400;
+
 }
 .subtitle{
 color: #ffffff;
 font-size: 15px;
 text-transform: uppercase;
+font-family: AvenirNext, sans-serif;
+font-weight: 300;
+margin-left: 90px;
+margin-top: 60px;
+
 }
 .benefits{
 	display: flex;
@@ -44,7 +58,12 @@ text-transform: uppercase;
 	list-style: none;
 	color: #ffffff;
 	width: 750px;
-	margin: 0 auto;
+	margin-top: 0px;
+	padding-top: 67px;
+}
+.benefits_icon{
+	width: 30px;
+	height: 30px;
 }
 .main{
 	background: #a2ca28;
@@ -53,52 +72,131 @@ text-transform: uppercase;
 	color: #ffffff;
 	text-decoration: none;
 	font-size: 14px;
+	font-family: AvenirNext, sans-serif;
+font-weight: 200;
 }
 .benefits_title{
 	font-size: 24px;
-
-
+	font-family: AvenirNext, sans-serif;
+font-weight: 400;
 }
+
 .benefits_text{
 	font-size: 14px;
+	font-family: AvenirNext, sans-serif;
+font-weight: 300;
 }
 
 .benefits_foo{
 display: flex;
 justify-content: space-between;
-width: 800px;
-margin: 0 auto;
+
 
 }
-
-
-
+.section_margin{
+	margin-left: 135px;
+	margin-right: 135px;
+	width: 800px;
+}
 
 .title_for{
 color: #fd634e;
 font-size: 14px;
-margin: 0px;
+margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
 text-transform: uppercase;
+font-family: AvenirNext, sans-serif;
+font-weight: 400;
 }
 .title_five{
 	color: #a2ca28;
 	font-size:35px;
-	margin:0px;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
 	text-transform: uppercase;
+	font-family: AvenirNext, sans-serif;
+font-weight: 400;
 }
 .text_promo{
-	color: #656e74
+	color: #656e74;
 	font-size: 14px;
-	margin:0px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: AvenirNext, sans-serif;
+font-weight: 200;
 }
 .Read_mo{
 	color: #c0da8a;
 	font-size: 14px;
-	margin: 0px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 600px;
+	font-family: AvenirNext, sans-serif;
+font-weight: 200;
 }
 .background_div{
 	background: #ffffff;
-	width: 200px;
+	width: 270px;
+	text-align: center;
 	
 }
+.section_image{
+	width: 540px;
+	height:335px;
+}
+.section_image:before{
+	content: 'Fitness first';
+	display: block;
+	background: rgba(0, 0, 0, 0.5);
+	width: 540px;
+	height:335px;
+}
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.icon_drip {
+	width: 15px;
+	height: 15px;
+}
+.form{
+	display: flex;
+background: #000000;
+}
+.input_1{
+	 border: 2px;
+	 color: #ffffff;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 100px;
+ 
+}
+.input_2{
+	border: 2px;
+	color: #ffffff;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  }
+.button{
+	border: 2px;
+	background: #A2EE38;
+	color: #ffffff;
+	padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+
+
 
