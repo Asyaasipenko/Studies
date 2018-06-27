@@ -1,0 +1,15 @@
+@font-face{
+src: './fonts/AvenirNextCyr-Regular.ttf';
+font-family: AvenirNext;
+}
+
+.with_fonts{
+font-family: AvenirNext, sans-serif;
+font-weight: 100;
+}
+
+.title{
+font-family: AvenirNext, sans-serif;
+font-weight: 600;
+
+}
