@@ -154,7 +154,12 @@ font-weight: 200;
 .section_image{
 	width: 540px;
 	height:335px;
-}
+	opacity: 1;
+	transition: all 2s;
+	}
+	.section_image:hover{
+		opacity: 0;
+	}
 
 .section_image:before{
 	content: 'Fitness first';
@@ -163,8 +168,6 @@ font-weight: 200;
 	width: 540px;
 	height:335px;
 }
-
-
 .center-screen {
   display: flex;
   flex-direction: column;
