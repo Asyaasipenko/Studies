@@ -253,18 +253,17 @@ font-weight: 200;
 	margin-right: 80px;
 	margin-top: 40px;
 }
-.li_footer1{
-	background: #000080;
+.icon_all{
 	width: 50px;
     height: 50px;
     display: block;
     border-radius: 50%;
     position: relative;
 }
-.li_footer1:before{
+.icon_all:before{
 	content: '';
-  background-image: url(./images/fb.svg);
-  background-size: 20px 20px;
+ 
+  background-size: 20px;
   width: 20px;
   height: 20px;
   display: block;
@@ -272,46 +271,20 @@ font-weight: 200;
   top: 15px;
   left: 15px;
 }
+.social_icon1{
+	background: #000080;
+	}
 
 
-.li_footer2{
+.social_icon2{
   background: #00aeef;
-  width: 50px;
-  height: 50px;
-  display: block;
-  border-radius: 50%;
-  position: relative;
-}
-.li_footer2:before{
-	content: '';
-  background-image: url(./images/tw.svg);
-  background-size: 20px 20px;
-  width: 20px;
-  height: 20px;
-  display: block;
-  position: absolute;
-  top: 15px;
-  left: 15px;
+
 }
 
-.li_footer3{
+
+.social_icon3{
   background: #0000CD;
-  width: 50px;
-  height: 50px;
-  display: block;
-  border-radius: 50%;
-  position: relative;
-}
-.li_footer3:before{
-	content: '';
-  background-image: url(./images/ln.svg);
-  background-size: 20px 20px;
-  width: 20px;
-  height: 20px;
-  display: block;
-  position: absolute;
-  top: 15px;
-  left: 15px;
+  
 }
 
 
