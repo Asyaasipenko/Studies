@@ -38,7 +38,7 @@
 <main class="main center-screen">
 	<section class="section_margin">
 		<ul class="benefits">
-			<li>
+			<li class="benefits_item">
 				<img class="benefits_icon" src="./images/icon1.svg"/>
 				<h3 class="benefits_title">
 				Resources</h3>
@@ -49,7 +49,7 @@
 					<img src="./images/arrow.svg"/>
 				</a>
 			</li>
-		<li>
+		<li class="benefits_item">
 				<img class="benefits_icon" src="./images/icon2.svg"/>
 				<h3 class="benefits_title">Training & Funding</h3>
 				<p class="benefits_text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups.</p>
@@ -57,7 +57,7 @@
 					<img src="./images/arrow.svg"/>
 				</a>
 			</li>
-		<li>
+		<li class="benefits_item">
 				<img class="benefits_icon" src="./images/icon3.svg"/>
 				<h3 class="benefits_title">Connect</h3>
 				<p class="benefits_text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration. </p>
@@ -65,7 +65,7 @@
 					<img src="./images/arrow.svg"/>
 				</a>
 			</li>
-			<li>
+			<li class="benefits_item">
 				<img class="benefits_icon" src="./images/icon4.svg"/>
 				<h3 class="benefits_title">Communicate</h3>
 				<p class="benefits_text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily </p>
@@ -81,15 +81,27 @@
 
 			 <img class="icon_drip" src="./images/icon5.svg"/>
 
-			<img class="icon_drip" src="./images/icon5.svg"/>
-
 			<p class="text_promo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
 			<a href="" class="Read_mo">Read more</a>
         </div>
-		<img class="section_image" src="./images/img1.jpg"/>
+		    <a class="section_image_main section_image_main_background1" href="">
+		    
+		    <div class="section_image_text_hover">
+		    	<h4 class="title_for">It's all about you</h4>
+				<h2 class="title_five">Fitness first</h2>
+		    </div>
+		  </a>
     </section>
     <section class="section_margin benefits_foo">
-      <img class="section_image" src="./images/img2.jpg"/>
+      
+       <a class="section_image_main section_image_main_background2" href="">
+		    
+		    <div class="section_image_text_hover">
+		    	<h4 class="title_for">Love your</h4>
+				<h2 class="title_five">Your body</h2>
+		    </div>
+		  </a>
+
        <div class="background_div"> 
 			<h4 class="title_for">Love your</h4>
 			<h2 class="title_five">Your body</h2>
@@ -102,21 +114,22 @@
 <footer>
 	<div class="form">
 	<form>
-     <input type="Text" placeholder="Your name" class="input_1"/>
-     <input type="Text" placeholder="Your Email" class="input_2"/>
-    <button class="button">Join newsletter</button>
+     <input type="Text" placeholder="Your name" id="Your_name" class="input_1"/>
+     <input type="Text" placeholder="Your Email" id="Your_Email" class="input_2"/>
+    <button id="button" class="button">Join newsletter</button>
     </form>
-    
-        <a href=""></a>
-		<img src="./images/fb.svg"/>
-	
+    <ul class="ul_footer">
+     <li class="li_footer1">
+    	<a href=""></a>
+    	</li>
+	<li class="li_footer2">
 		<a href=""></a>
-		<img src="./images/tw.svg"/>
-	
+		</li>
+	<li class="li_footer3">
 	<a href=""></a>
-	<img src="./images/ln.svg"/>
-
-
+	
+	 </li>
+    </ul>
 </div>
 </footer>
 <script type="text/javascript" src="./script.js">

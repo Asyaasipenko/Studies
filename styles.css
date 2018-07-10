@@ -6,9 +6,10 @@
 }
 .link{
 	color: white;
-	font-size: 13px;
+	font-size: 11px;
 	text-transform: uppercase;
 	text-decoration: none;
+
 }
 
 @font-face{
@@ -29,7 +30,7 @@ font-weight: 400;
 	justify-content: space-between;
 	margin-left: 50px;
 	margin-right: 50px;
-	padding-top: 20px;
+	padding-top: 35px;
 
 }
 .title{
@@ -57,9 +58,12 @@ margin-top: 60px;
 	justify-content: space-between;
 	list-style: none;
 	color: #ffffff;
-	width: 750px;
-	margin-top: 0px;
 	padding-top: 67px;
+}
+
+.benefits_item{
+	width: 300px;
+	height: 300px;
 }
 .benefits_icon{
 	width: 30px;
@@ -95,19 +99,10 @@ justify-content: space-between;
 
 }
 .section_margin{
-	margin-left: 135px;
-	margin-right: 135px;
-	width: 800px;
+	margin: 0 auto;
+	width: 1180px;
 }
 
-}
-.section_margin{
-	margin-left: 135px;
-	margin-right: 135px;
-	width: 800px;
-}
-
- 
 .title_for{
 color: #fd634e;
 font-size: 14px;
@@ -147,27 +142,60 @@ font-weight: 200;
 }
 .background_div{
 	background: #ffffff;
-	width: 270px;
+	width: 386px;
+	height: 394px;
 	text-align: center;
 	
 }
-.section_image{
-	width: 540px;
-	height:335px;
-	opacity: 1;
-	transition: all 2s;
-	}
-	.section_image:hover{
-		opacity: 0;
-	}
 
-.section_image:before{
-	content: 'Fitness first';
-	display: block;
-	background: rgba(0, 0, 0, 0.5);
-	width: 540px;
-	height:335px;
+.section_image_main{
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 794px;
+  height: 394px;
+  position: relative;
+  display: block;
 }
+
+.section_image_main_background1{
+	background-image: url('./images/img1.jpg');
+}
+
+.section_image_main_background2{
+	background-image: url('./images/img2.jpg');
+}
+
+.section_image_main:hover .section_image_text_hover{
+  opacity: 1;
+}
+
+.section_image_main:hover:before{
+  opacity: 1;
+}
+
+.section_image_main:before{
+  content: '';
+  opacity: 0;
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+  width: 794px;
+  height: 394px;
+    transition: all 2s;
+}
+
+.section_image_text_hover{
+  color: white;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  transition: all 2s;
+  width: 100%;
+  top: 50%;
+  margin: 0;
+  margin-top: -66.5px;
+  }
+
 .center-screen {
   display: flex;
   flex-direction: column;
@@ -182,7 +210,10 @@ font-weight: 200;
 }
 .form{
 	display: flex;
-background: #000000;
+	justify-content: space-between;
+    background: #000000;
+
+
 }
 .input_1{
 	 border: 2px;
@@ -191,7 +222,9 @@ background: #000000;
   padding-left: 10px;
   padding-bottom: 20px;
   margin-top: 40px;
-  margin-left: 100px;
+  margin-left: 125px;
+  width: 200px;
+
  
 }
 .input_2{
@@ -201,19 +234,85 @@ background: #000000;
   padding-left: 10px;
   padding-bottom: 20px;
   margin-top: 40px;
+  width: 338px;
   }
 .button{
 	border: 2px;
-	background: #A2EE38;
+	background: #AAE342;
 	color: #ffffff;
 	padding-top: 20px;
   padding-left: 10px;
   padding-bottom: 20px;
   margin-top: 40px;
 }
+.ul_footer{
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+	height: 80px;
+	margin-right: 80px;
+	margin-top: 40px;
+}
+.li_footer1{
+	background: #000080;
+	width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+}
+.li_footer1:before{
+	content: '';
+  background-image: url(./images/fb.svg);
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
 
 
+.li_footer2{
+  background: #00aeef;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+}
+.li_footer2:before{
+	content: '';
+  background-image: url(./images/tw.svg);
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
 
+.li_footer3{
+  background: #0000CD;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+}
+.li_footer3:before{
+	content: '';
+  background-image: url(./images/ln.svg);
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
 
 
 
